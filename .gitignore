@@ -11,4 +11,3 @@ node_modules/
 worker-configuration.d.ts
 devserver*.log
 src/react-app/pages/oracleJdk-25/
-public/bg-video.mp4
