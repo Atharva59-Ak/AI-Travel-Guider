@@ -1,0 +1,28 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "019acf9d-230d-7076-8baa-76d7c9baa111",
+  "main": "./src/worker/index.ts",
+  "compatibility_date": "2025-06-17",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "NVIDIA_MODEL": "google/gemma-3n-e4b-it",
+    "NVIDIA_BASE_URL": "https://integrate.api.nvidia.com/v1"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "019acf9d-230d-7076-8baa-76d7c9baa111",
+      "database_id": "019acf9d-230d-7076-8baa-76d7c9baa111"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "R2_BUCKET",
+      "bucket_name": "019acf9d-230d-7076-8baa-76d7c9baa111"
+    }
+  ]
+}

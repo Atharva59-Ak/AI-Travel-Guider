@@ -1,0 +1,120 @@
+import type { Restaurant } from "@/shared/types";
+
+export const RESTAURANTS: Restaurant[] = [
+  // Mumbai
+  {
+    id: "mumbai-rest-1",
+    name: "Britannia & Co.",
+    city: "Mumbai",
+    description: "Iconic Parsi restaurant serving authentic berry pulao and dhansak since 1923. A heritage dining experience.",
+    image: "https://placehold.co/800x600/DC2626/FFFFFF?text=Restaurant",
+    rating: 4.6,
+    cuisine: "Parsi",
+    dietary: ["Non-Vegetarian"],
+    priceRange: "₹₹",
+    coordinates: { lat: 18.9388, lng: 72.8354 },
+    deliveryLinks: {
+      swiggy: "https://www.swiggy.com",
+      zomato: "https://www.zomato.com",
+    },
+  },
+  {
+    id: "mumbai-rest-2",
+    name: "Cafe Madras",
+    city: "Mumbai",
+    description: "Authentic South Indian vegetarian cuisine. Famous for crispy dosas, filter coffee, and traditional thalis.",
+    image: "https://placehold.co/800x600/DC2626/FFFFFF?text=Restaurant",
+    rating: 4.4,
+    cuisine: "South Indian",
+    dietary: ["Vegetarian", "Vegan Options"],
+    priceRange: "₹",
+    coordinates: { lat: 18.9175, lng: 72.8280 },
+    deliveryLinks: {
+      swiggy: "https://www.swiggy.com",
+      zomato: "https://www.zomato.com",
+      zepto: "https://www.zeptocafe.com",
+    },
+  },
+  // Delhi
+  {
+    id: "delhi-rest-1",
+    name: "Karim's",
+    city: "Delhi",
+    description: "Legendary Mughlai restaurant near Jama Masjid. Famous for kebabs, mutton korma, and nihari since 1913.",
+    image: "https://placehold.co/800x600/DC2626/FFFFFF?text=Restaurant",
+    rating: 4.5,
+    cuisine: "Mughlai",
+    dietary: ["Non-Vegetarian", "Halal"],
+    priceRange: "₹₹",
+    coordinates: { lat: 28.6506, lng: 77.2340 },
+    deliveryLinks: {
+      swiggy: "https://www.swiggy.com",
+      zomato: "https://www.zomato.com",
+    },
+  },
+  {
+    id: "delhi-rest-2",
+    name: "Indian Accent",
+    city: "Delhi",
+    description: "Award-winning fine dining with modern Indian cuisine. Innovative dishes using local ingredients and global techniques.",
+    image: "https://placehold.co/800x600/DC2626/FFFFFF?text=Restaurant",
+    rating: 4.7,
+    cuisine: "Contemporary Indian",
+    dietary: ["Vegetarian", "Non-Vegetarian", "Gluten-Free Options"],
+    priceRange: "₹₹₹₹",
+    coordinates: { lat: 28.5933, lng: 77.2189 },
+  },
+  // Bengaluru
+  {
+    id: "bengaluru-rest-1",
+    name: "MTR (Mavalli Tiffin Room)",
+    city: "Bengaluru",
+    description: "Historic South Indian vegetarian restaurant. Legendary for breakfast idlis, dosas, and authentic Karnataka meals.",
+    image: "https://placehold.co/800x600/DC2626/FFFFFF?text=Restaurant",
+    rating: 4.5,
+    cuisine: "South Indian",
+    dietary: ["Vegetarian"],
+    priceRange: "₹",
+    coordinates: { lat: 12.9405, lng: 77.5845 },
+    deliveryLinks: {
+      swiggy: "https://www.swiggy.com",
+      zomato: "https://www.zomato.com",
+    },
+  },
+  // Chennai
+  {
+    id: "chennai-rest-1",
+    name: "Murugan Idli Shop",
+    city: "Chennai",
+    description: "Famous chain serving soft idlis with variety of chutneys and sambar. A Chennai breakfast staple.",
+    image: "https://placehold.co/800x600/DC2626/FFFFFF?text=Restaurant",
+    rating: 4.4,
+    cuisine: "South Indian",
+    dietary: ["Vegetarian", "Vegan Options"],
+    priceRange: "₹",
+    coordinates: { lat: 13.0358, lng: 80.2502 },
+    deliveryLinks: {
+      swiggy: "https://www.swiggy.com",
+      zomato: "https://www.zomato.com",
+      zepto: "https://www.zeptocafe.com",
+    },
+  },
+  // Jaipur
+  {
+    id: "jaipur-rest-1",
+    name: "Laxmi Misthan Bhandar (LMB)",
+    city: "Jaipur",
+    description: "Iconic Rajasthani vegetarian restaurant and sweet shop. Famous for dal baati churma and traditional sweets.",
+    image: "https://placehold.co/800x600/DC2626/FFFFFF?text=Restaurant",
+    rating: 4.3,
+    cuisine: "Rajasthani",
+    dietary: ["Vegetarian"],
+    priceRange: "₹₹",
+    coordinates: { lat: 26.9196, lng: 75.7878 },
+    deliveryLinks: {
+      swiggy: "https://www.swiggy.com",
+      zomato: "https://www.zomato.com",
+    },
+  },
+];
+
